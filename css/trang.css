@@ -1,0 +1,74 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.container{
+	width:100%;
+	height: auto;
+	background: #FFAEB0;
+	position: relative;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	position: fixed;
+}
+.logo{
+	width: 20%;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	width: 150px;
+	margin-left: 20px;
+}
+.menu{
+	width: 80%;
+	height: 100px;
+	float: right;
+	box-sizing: border-box;
+}
+.menu  ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 30px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	width: 115px;
+	text-align: center;
+}
+.menu ul li ul{
+	position: absolute;
+	opacity: 0;
+}
+.menu ul li:hover ul{
+	opacity: 1;
+}
+.menu ul li a{
+	color:#000000 ;
+	text-decoration: none;
+	font-size: 25px;
+	transition-duration: 0.3s;
+}
+.menu ul li a:hover{
+	color: #FBCA57 ;
+}
+.active{
+	color:#FBCA57 !important;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+}
+.banner img{
+	width: 100%;
+}

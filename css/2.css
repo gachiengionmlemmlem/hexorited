@@ -1,0 +1,117 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.container{
+	width: 100%;
+	height: auto;
+/*	background: url(../img/bìa-document.jpg)*/
+}
+.box{
+	height:520px;
+	width: 100%;
+	padding-top: 80px;
+/*	background: #FFA7A8;*/
+	position: relative;
+	background: url(../img/bìa-document.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bos{
+	height: 500px;
+	width: 1100px;
+	margin-left: 90px;
+	position: absolute;
+	z-index: 2;
+}
+.left{
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+.header{
+	width: 500px;
+	height: 100px;
+}
+.header h1{
+	font-size: 70px;
+	text-align: center;
+}
+.ngang{
+	width: 500px;
+	height: 400px;
+	
+}
+.ngang .ca{
+	width:500px;
+	height: 120px;
+	margin-bottom: 20px;
+}
+.ngang .cn{
+	width: 120px;
+	height: 120px;
+	
+	margin-left: 50px;
+	float: left;
+}
+.cn img{
+	width: 120px;
+}
+.cn img:hover{
+	width: 130px;
+	height: 130px;
+	box-shadow: 0px 0px 10px 8px #FFFFFF;
+	animation: bounce;
+	animation-delay: 3s;
+}
+.ngang .cm{
+	width: 120px;
+	height: 120px;
+	
+	margin-left: 20px;
+	float: left;
+}
+.cm img{
+	width: 120px;
+}
+.cm img:hover{
+	width: 130px;
+	height: 130px;
+	box-shadow: 0px 0px 10px 8px #FFFFFF;
+	animation: bounce;
+	animation-delay: 3s;
+}
+.ngang .co{
+	width: 120px;
+	height: 120px;
+	
+	margin-left: 20px;
+	float: left;
+}
+.co img{
+	width: 120px;
+}
+.co img:hover{
+	width: 130px;
+	height: 130px;
+	box-shadow: 0px 0px 10px 8px #FFFFFF;
+	animation: bounce;
+	animation-delay: 3s;
+}
+.right{
+	width: 500px;
+	height: 500px;
+	
+	float: right;
+	box-shadow: 0px 0px 15px 13px #884C9D;
+}
+.right img{
+/*	box-shadow: 10px 10px 8px #888888;*/
+}
+
